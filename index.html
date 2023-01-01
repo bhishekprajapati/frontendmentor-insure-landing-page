@@ -11,17 +11,80 @@
   <title>Frontend Mentor | Insure landing page</title>
 </head>
 <body class="font-sans">
+  <!-- <header class="relative lg:flex lg:justify-between lg:py-5 lg:px-[7%]">
+    <div class="relative flex justify-between items-center p-4">
+      <a href="/">
+        <img src="./images/logo.svg" alt="site-logo">
+      </a>
+      <button class="lg:hidden">
+        <ion-icon class="border scale-90" name="close-outline" size="large"></ion-icon>
+        <ion-icon class="border scale-90" name="menu-outline" size="large"></ion-icon>
+      </button>
+    </div>
+    <div>
+      <div class="relative bg-violet-darker lg:bg-light">
+        <div class="p-5">
+          <div class="relative z-50">
+            <nav class="text-center lg:text-grayish-violet-dark text-light">
+              <ul class="[&>li:not(:last-child)]:mb-5 lg:[&>li:not(:last-child)]:mb-0 lg:flex lg:items-center lg:gap-x-8">
+                <li>
+                  <a href="#" class="hover:text-dark transition-colors duration-500 font-bold tracking-wide uppercase">How we work</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-dark transition-colors duration-500 font-bold tracking-wide uppercase">Blog</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-dark transition-colors duration-500 font-bold tracking-wide uppercase">Account</a>
+                </li>
+                <li>
+                  <button type="button" class="py-2 w-full hover:bg-violet-darker hover:text-light transition-colors duration-500 font-bold tracking-wide uppercase border lg:px-9">View Plans</button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <img class="w-full absolute bottom-0 z-0" src="./images/bg-pattern-mobile-nav.svg" alt="pattern">
+      </div>
+    </div>
+  </header> -->
 
-  How we work
-  Blog
-  Account
-  View plans
 
-  Humanizing your insurance.
+  <main>
+    <section class="lg:pt-16 lg:pb-36 lg:px-[8%] lg:flex lg:gap-x-2 lg:flex-row-reverse lg:bg-violet-dark lg:relative">
+      <div class="lg:w-[40%] relative">
+        <div class="lg:absolute lg:top-0 lg:right-0 lg:w-full">
+          <picture>
+            <source media="(min-width: 64em)" srcset="./images/image-intro-desktop.jpg">
+            <img class="w-full" src="./images/image-intro-mobile.jpg">
+          </picture>
+        </div>
+      </div>
+      <div class="lg:w-[60%]">
+        <div class="relative lg:z-0 lg:static px-5 lg:px-0 py-20 lg:py-0 bg-violet-dark text-light text-center lg:text-left">
+          <picture class="absolute left-0 top-0 lg:top-[75%]">
+            <source media="(min-width: 64em)" srcset="./images/bg-pattern-intro-left-desktop.svg">
+            <img class="lg:w-3/4" src="./images/bg-pattern-intro-left-mobile.svg" alt="">
+          </picture>
+          <div class="relative">
+            <div class="hidden lg:block w-24 border-b-2 border-grayish-blue mb-10"></div>
+            <h1 class="text-5xl lg:text-6xl font-serif">Humanizing <br> your insurance.</h1>
+            <p class="px-1 mt-4 mb-8 text-lg">
+              Get your life insurance coverage easier and faster. We blend our expertise 
+              and technology to help you find the plan that’s right for you. Ensure you 
+              and your loved ones are protected.
+            </p>
+            <button class="border px-6 py-2 uppercase hover:bg-light hover:text-violet-dark transition-colors duration-500" type="button">View Plans</button>
+          </div>
+          <picture class="absolute right-0 top-[66.5%] lg:top-[-12%]">
+            <source media="(min-width: 64em)" srcset="./images/bg-pattern-intro-right-desktop.svg">
+            <img class="lg:w-[82%] ml-auto" src="./images/bg-pattern-intro-right-mobile.svg" alt="">
+          </picture>
+        </div>
+      </div>
+    </section>
+  </main>
+  
 
-  Get your life insurance coverage easier and faster. We blend our expertise 
-  and technology to help you find the plan that’s right for you. Ensure you 
-  and your loved ones are protected.
 
   View plans
 
@@ -71,6 +134,7 @@
   Careers
   Press
   Licenses
-
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
