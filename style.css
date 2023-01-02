@@ -1050,19 +1050,7 @@ video {
   .md\:text-left {
     text-align: left;
   }
-}
 
-@media (min-width: 64em) {
-  .lg\:pb-10 {
-    padding-bottom: 2.5rem;
-  }
-}
-
-.\[\&\>li\:not\(\:last-child\)\]\:mb-8>li:not(:last-child) {
-  margin-bottom: 2rem;
-}
-
-@media (min-width: 48em) {
   .md\:\[\&\>li\:not\(\:last-child\)\]\:mb-0>li:not(:last-child) {
     margin-bottom: 0px;
   }
@@ -1109,6 +1097,10 @@ video {
     display: block;
   }
 
+  .lg\:inline {
+    display: inline;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -1139,6 +1131,34 @@ video {
 
   .lg\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .lg\:w-\[36\%\] {
+    width: 36%;
+  }
+
+  .lg\:w-\[34\%\] {
+    width: 34%;
+  }
+
+  .lg\:w-\[32\%\] {
+    width: 32%;
+  }
+
+  .lg\:w-\[30\%\] {
+    width: 30%;
+  }
+
+  .lg\:w-\[25\%\] {
+    width: 25%;
+  }
+
+  .lg\:w-\[26\%\] {
+    width: 26%;
+  }
+
+  .lg\:w-\[28\%\] {
+    width: 28%;
   }
 
   .lg\:flex-row-reverse {
@@ -1220,6 +1240,10 @@ video {
     padding-top: 2rem;
   }
 
+  .lg\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
@@ -1246,6 +1270,10 @@ video {
 
 .\[\&\>li\:not\(\:last-child\)\]\:mb-12>li:not(:last-child) {
   margin-bottom: 3rem;
+}
+
+.\[\&\>li\:not\(\:last-child\)\]\:mb-8>li:not(:last-child) {
+  margin-bottom: 2rem;
 }
 
 .\[\&\>li\>\:first-child\]\:mb-5>li>:first-child {
