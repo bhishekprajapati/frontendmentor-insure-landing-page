@@ -513,6 +513,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 .absolute {
   position: absolute;
 }
@@ -913,6 +917,22 @@ video {
 
 .duration-500 {
   transition-duration: 500ms;
+}
+
+.selection\:text-transparent *::-moz-selection {
+  color: transparent;
+}
+
+.selection\:text-transparent *::selection {
+  color: transparent;
+}
+
+.selection\:text-transparent::-moz-selection {
+  color: transparent;
+}
+
+.selection\:text-transparent::selection {
+  color: transparent;
 }
 
 .hover\:bg-violet-darker:hover {
