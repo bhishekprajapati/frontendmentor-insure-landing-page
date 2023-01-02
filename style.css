@@ -799,6 +799,11 @@ video {
   padding-bottom: 3rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pt-16 {
   padding-top: 4rem;
 }
@@ -813,6 +818,18 @@ video {
 
 .pb-6 {
   padding-bottom: 1.5rem;
+}
+
+.pt-32 {
+  padding-top: 8rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .text-center {
@@ -1015,8 +1032,39 @@ video {
          column-gap: 7rem;
   }
 
+  .md\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .md\:text-left {
     text-align: left;
+  }
+}
+
+@media (min-width: 64em) {
+  .lg\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+}
+
+.\[\&\>li\:not\(\:last-child\)\]\:mb-8>li:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 48em) {
+  .md\:\[\&\>li\:not\(\:last-child\)\]\:mb-0>li:not(:last-child) {
+    margin-bottom: 0px;
   }
 }
 
@@ -1198,16 +1246,6 @@ video {
 
 .\[\&\>li\:not\(\:last-child\)\]\:mb-12>li:not(:last-child) {
   margin-bottom: 3rem;
-}
-
-.\[\&\>li\:not\(\:last-child\)\]\:mb-8>li:not(:last-child) {
-  margin-bottom: 2rem;
-}
-
-@media (min-width: 48em) {
-  .md\:\[\&\>li\:not\(\:last-child\)\]\:mb-0>li:not(:last-child) {
-    margin-bottom: 0px;
-  }
 }
 
 .\[\&\>li\>\:first-child\]\:mb-5>li>:first-child {
