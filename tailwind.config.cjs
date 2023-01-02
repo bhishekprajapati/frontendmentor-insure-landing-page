@@ -17,7 +17,7 @@ module.exports = {
       'violet-darker': 'hsl(270, 9%, 17%)',
       'grayish-violet-dark': 'hsl(273, 4%, 51%)',
       'grayish-blue': 'hsl(216, 30%, 68%)',
-      'gary-lighter': 'hsl(0, 0%, 98%)',
+      'gray-lighter': 'hsl(0, 0%, 98%)',
       light: '#fff',
       dark: '#000',
     },
