@@ -1091,6 +1091,10 @@ video {
     background-color: hsl(256 26% 20% / var(--tw-bg-opacity));
   }
 
+  .lg\:p-0 {
+    padding: 0px;
+  }
+
   .lg\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
