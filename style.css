@@ -997,6 +997,25 @@ video {
   text-decoration-line: underline;
 }
 
+.focus\:bg-light:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.focus\:text-violet-dark:focus {
+  --tw-text-opacity: 1;
+  color: hsl(256 26% 20% / var(--tw-text-opacity));
+}
+
+.focus\:underline:focus {
+  text-decoration-line: underline;
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 @media (min-width: 48em) {
   .md\:mb-6 {
     margin-bottom: 1.5rem;
